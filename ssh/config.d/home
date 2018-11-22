@@ -1,0 +1,5 @@
+Host diskstation
+  HostName  192.168.1.3
+  User admin
+  IdentityFile ~/.ssh/id_rsa_diskstation
+

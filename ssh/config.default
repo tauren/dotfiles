@@ -1,0 +1,13 @@
+# In these dotfiles, the `ssh` command has been overridden with
+# an alias that uses this file as the default config file
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+
+# Include existing .ssh/config file
+Include config
+
+# Include all additional SSH config files
+Include config.d/*

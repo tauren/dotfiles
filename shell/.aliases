@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+
+# `.aliases` is used to provide custom variables.
+#
+# This file is used as a part of `.shell_env`
+
+# === Aliases ===
+
+alias src="source ~/.zshrc"
+alias h="history"
+
+# ssh
+alias ssh="ssh -F ~/.ssh/config.default"
+
+# edit dotfiles
+alias dotfiles="$UI_EDITOR ~/dotfiles"
+
+# exa:
+alias ll="exa -ghF --long --git"
+alias la="exa -ghF --all --long --git"
+alias lt="exa --all --long --tree --level=3 --git"
+
+# git with hub:
+alias git="hub"
+
+# Pretty print XML (use `jq` for json):
+alias xq="xmllint --format"
+
+# Show local ip:
+alias localip="ipconfig getifaddr en0"
+
+# Bell/MacOS notification when the program is finished. It is
+# useful for some time-consuming operations. Like:
+# > npm install | a
+alias a="terminal-notifier -sound default"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Copy public key to clipboard:
+alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+# Docker
+alias dps="docker ps"
+alias dpsa="docker ps -a"
+alias dst="docker stats"
+alias dim="docker images"
+alias dcup="docker-compose up -d"
+alias dcdown="docker-compose down"
+alias dcstart="docker-compose start"
+alias dcstop="docker-compose stop"
+
+# === Aliases to place at end of command ===
+
+alias H="| head"
+alias T="| tail"
+alias G="| grep"
+alias L="| less"
+alias LL="2>&1 | less"
+alias CA="2>&1 | cat -A"
+alias NE="2> /dev/null"
+alias NUL="> /dev/null 2>&1"
+

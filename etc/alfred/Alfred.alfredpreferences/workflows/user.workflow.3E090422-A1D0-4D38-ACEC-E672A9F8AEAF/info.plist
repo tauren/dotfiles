@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>3ABCE810-C1A4-4A37-9CAE-6BC2B80546CF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F3DD1953-EC59-4AA1-B1BC-205AC4D98A2C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Tauren Mills</string>
+	<key>description</key>
+	<string>Edit Todo List in Sublime</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Edit Todos</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Dropbox/TODOS/todos.sublime-project</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>F3DD1953-EC59-4AA1-B1BC-205AC4D98A2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>todo</string>
+				<key>subtext</key>
+				<string>Open todo.txt</string>
+				<key>text</key>
+				<string>Open Todos</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3ABCE810-C1A4-4A37-9CAE-6BC2B80546CF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3ABCE810-C1A4-4A37-9CAE-6BC2B80546CF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>F3DD1953-EC59-4AA1-B1BC-205AC4D98A2C</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

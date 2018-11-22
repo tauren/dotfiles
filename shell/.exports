@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+# `.exports` is used to provide custom variables.
+#
+# This file is used as a part of `.shell_env`
+
+
+# === Path modifications ===
+
+# These lines should be the first ones
+
+PATH="$HOME/bin:$PATH"
+
+export PATH
+
+
+# === General ===
+
+# Editor:
+export EDITOR=$(which vim)
+export UI_EDITOR=$(which code)
+
+# Homebrew:
+export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects
+
+# Pagers:
+export LESS="-R"  # argument to allow less to show colors
+export PAGER='bat --color always --style plain'
+export MANPAGER='bat --color always --style plain'
+
+# === Version managers ===
+
+# nvm:
+export NVM_DIR="$HOME/.nvm"
+source "/usr/local/opt/nvm/nvm.sh"
+
+# === Histories ===
+
+# Enable persistent REPL history for `node`.
+export NODE_REPL_HISTORY="$HOME/.node_history"
+# Use sloppy mode by default, matching web browsers.
+export NODE_REPL_MODE='sloppy'
+

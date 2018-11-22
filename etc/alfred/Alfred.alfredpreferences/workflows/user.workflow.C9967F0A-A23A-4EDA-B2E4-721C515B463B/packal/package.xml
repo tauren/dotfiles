@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Toggle Hidden Files</name>
+  <version>1.1</version>
+  <bundle>ch.milan.hiddenfiles</bundle>
+  <updated>1397077272</updated>
+  <file>hidden_files.alfredworkflow</file>
+</workflow>

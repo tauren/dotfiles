@@ -1,0 +1,59 @@
+- clean: ['~']
+
+- shell:
+  - [bash ./oh-my-zsh/install.sh, Installing oh-my-zsh]
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+- link:
+    # Terminal
+    ~/.shell:
+      path: shell
+      create: true
+    ~/.shell_env: config/shell_env
+    ~/.bash_profile: config/bash_profile
+    ~/.bashrc: config/bashrc
+    ~/.zshrc: config/zshrc
+    ~/.hushlogin: config/hushlogin
+    ~/.antibody: config/antibody.txt
+    ~/.inputrc: config/inputrc
+
+    # App configurations
+    ~/etc:
+      path: etc
+      create: true
+
+    # SSH
+    ~/.ssh/config.default:
+      path: ssh/config.default
+      create: true
+    ~/.ssh/config.d:
+      path: ssh/config.d
+      create: true
+
+    # Git
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore_global: config/gitignore
+
+    # Tools
+    ~/.psqlrc: config/psqlrc
+
+    # Editors
+    ~/.editorconfig: config/editorconfig
+
+- brewfile:
+    file: Brewfile
+    no-upgrage: true
+
+- link:
+    # vscode:
+    "~/Library/Application Support/Code/User/settings.json":
+        path: vscode/settings.json
+        create: true
+    # "~/Library/Application Support/Code/User/snippets":
+    #     path: vscode/snippets
+    #     create: true
+
+- shell:
+  - bash ./vscode/install.sh

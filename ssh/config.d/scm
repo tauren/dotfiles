@@ -1,0 +1,17 @@
+Host gh github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_github
+
+Host gl gitlab.com
+  HostName gitlab.com
+  User git
+  # User tauren
+  IdentityFile ~/.ssh/id_rsa_gitlab
+  PubkeyAuthentication yes
+
+Host bit bitbucket.com
+  HostName bitbucket.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_bitbucket
+
