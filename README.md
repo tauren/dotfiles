@@ -16,6 +16,9 @@ Inspired by [sobolevn's dotfiles](https://github.com/sobolevn/dotfiles)
 - Setup BitWarden
 - BitWarden Alfred Workflow http://www.packal.org/workflow/bitwarden-cli
 - Move elements from ~/dotfiles.notused to ~/dotfiles
+- Add Workona for tab management https://workona.com/
+- Or Toby for tab management https://www.gettoby.com/
+- And/or The Great Suspender https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
 
 ## Contents
 

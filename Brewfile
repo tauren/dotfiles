@@ -21,6 +21,9 @@ brew 'bat'
 # Open source password manager https://bitwarden.com
 brew 'bitwarden-cli'
 
+# Command line cheatsheets https://github.com/chrisallenlane/cheat
+brew 'cheat'
+
 # Tiling Window Manager https://github.com/koekeishiya/chunkwm
 #brew 'chunkwm'
 
@@ -125,6 +128,7 @@ cask 'alfred2'
 # cask 'bisq'
 cask 'bitwarden'
 # cask 'boostnote'
+# Hold down cmd key and see cheatsheet for current app
 cask 'cheatsheet'
 cask 'clipy'
 # Checksum doesn't match

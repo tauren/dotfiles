@@ -64,7 +64,10 @@
   "window.newWindowDimensions": "maximized",
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
-    "gitDecoration.modifiedResourceForeground": "#d4cb68"
+    "gitDecoration.modifiedResourceForeground": "#d4cb68",
+    "[Ayu Dark]": {
+      "sideBar.foreground": "#777777"
+    }
   },
   "workbench.colorTheme": "Ayu Dark",
   "workbench.editor.labelFormat": "short",
