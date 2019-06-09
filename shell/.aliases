@@ -41,14 +41,26 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 # Docker
+# Remove ALL dangling volumes
+alias drmd="docker volume rm $(docker volume ls -qf dangling=true)"
+alias dpr="docker system prune"
+alias dex="docker exec -it"
 alias dps="docker ps"
 alias dpsa="docker ps -a"
 alias dst="docker stats"
 alias dim="docker images"
+alias dimrm="docker rmi"
+alias dcb="docker-compose build"
 alias dcup="docker-compose up -d"
+alias dcupb="docker-compose up -d --build"
 alias dcdown="docker-compose down"
 alias dcstart="docker-compose start"
 alias dcstop="docker-compose stop"
+alias dcps="docker-compose ps"
+alias dcl="docker-compose logs"
+alias dclf="docker-compose logs --follow"
+alias dvol="docker volume ls"
+alias dvolrm="docker volume rm"
 
 # === Aliases to place at end of command ===
 

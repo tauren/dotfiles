@@ -3,6 +3,8 @@
 # - Use docker-compose to run services (i.e. mongodb)
 
 tap 'buo/cask-upgrade'
+# Non-official Flutter TODO: update when brew has official flutter
+tap 'eclewlow/formulas'
 tap 'getantibody/tap'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
@@ -10,7 +12,6 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 # Tiling Window Manager https://github.com/koekeishiya/chunkwm
 #tap 'crisidev/homebrew-chunkwm'
-
 
 # Shell plugin manager http://getantibody.github.io
 brew 'getantibody/tap/antibody'
@@ -40,6 +41,9 @@ brew 'findutils', args: ['with-default-names']
 
 # Fuzzy finder https://github.com/junegunn/fzf
 brew 'fzf'
+
+# Flutter (unoffical https://github.com/eclewlow/homebrew-formulas)
+brew 'flutter'
 
 # Git version control
 brew 'git'
@@ -125,6 +129,7 @@ brew 'zsh-syntax-highlighting'
 
 # I have an Alfred2 license, not Alfred3
 cask 'alfred2'
+cask 'android-studio-preview'
 # cask 'bisq'
 cask 'bitwarden'
 # cask 'boostnote'
@@ -160,6 +165,7 @@ cask 'google-chrome-canary'
 # cask 'google-play-music-desktop-player'
 # cask 'graphiql'
 cask 'hammerspoon'
+cask 'inboxer'
 cask 'insomnia'
 cask 'iterm2'
 cask 'java'
@@ -168,7 +174,7 @@ cask 'java'
 cask 'keepassx'
 # cask 'meld'
 cask 'minikube'
-cask 'mongodb-compass'
+cask 'mongodb-compass-community'
 cask 'ngrok'
 cask 'notion'
 cask 'odrive'
@@ -193,6 +199,7 @@ cask 'sketch'
 cask 'slack'
 cask 'sourcetree'
 cask 'spectacle'
+cask 'station'
 cask 'stay'
 cask 'telegram'
 cask 'tunnelblick'
@@ -255,4 +262,4 @@ mas 'Amphetamine', id: 937984704
 # mas 'Microsoft Remote Desktop 10', id: 1295203466
 # mas 'Shotty', id: 1250306151
 # mas 'Unclutter', id: 577085396
-# mas 'Xcode', id: 497799835
+mas 'Xcode', id: 497799835

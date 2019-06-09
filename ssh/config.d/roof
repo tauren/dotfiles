@@ -1,2 +1,12 @@
 Host roof.dev.app
   HostName 162.243.88.104
+
+Host roof.docker.dev
+  User root
+  HostName 192.241.166.20
+
+Host roof.dev.db
+  HostName 104.131.222.115
+
+Host roof.proxy
+  HostName 104.131.220.107

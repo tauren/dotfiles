@@ -6,9 +6,8 @@ Host gh github.com
 Host gl gitlab.com
   HostName gitlab.com
   User git
-  # User tauren
   IdentityFile ~/.ssh/id_rsa_gitlab
-  PubkeyAuthentication yes
+  Preferredauthentications publickey
 
 Host bit bitbucket.com
   HostName bitbucket.com

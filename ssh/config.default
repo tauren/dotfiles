@@ -1,6 +1,8 @@
 # In these dotfiles, the `ssh` command has been overridden with
 # an alias that uses this file as the default config file
 
+# See https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
+
 Host *
   AddKeysToAgent yes
   UseKeychain yes

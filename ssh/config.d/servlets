@@ -1,0 +1,24 @@
+Host netbooki netbooki.servlets.net nbmain nbmain.com
+  HostName nbmain.com
+  User root
+  IdentityFile ~/.ssh/id_rsa_servlets
+
+Host netbooki-tauren
+  HostName nbmain.com
+  User tauren
+  IdentityFile ~/.ssh/id_rsa_netbooki_tauren
+
+Host netbooki-brad
+  HostName nbmain.com
+  User netbooki
+  IdentityFile ~/.ssh/id_rsa_netbooki_brad
+
+Host speedee speedee.servlets.net
+  HostName 142.93.95.131
+  User root
+  IdentityFile ~/.ssh/id_rsa_servlets
+
+Host speedee-tauren
+  HostName 142.93.95.131
+  User tauren
+  IdentityFile ~/.ssh/id_rsa_netbooki_tauren

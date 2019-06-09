@@ -19,6 +19,7 @@ Inspired by [sobolevn's dotfiles](https://github.com/sobolevn/dotfiles)
 - Add Workona for tab management https://workona.com/
 - Or Toby for tab management https://www.gettoby.com/
 - And/or The Great Suspender https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en
+- Might be some useful stuff here: https://github.com/alexramirez/mac-setup
 
 ## Contents
 

@@ -96,9 +96,6 @@
       "remote": true
     }
   },
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.keymap": "alternate",
@@ -107,5 +104,6 @@
   "gitlens.statusBar.enabled": false,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "gitlens.codeLens.enabled": false
 }
