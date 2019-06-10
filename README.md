@@ -36,6 +36,18 @@ What's included?
 
 ## Installation
 
+Install homebrew:
+
+```
+bash /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Install git:
+
+```
+brew install git
+```
+
 We are using `dotbot` to handle installations. Steps:
 
 1. Clone this repo
