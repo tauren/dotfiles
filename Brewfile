@@ -10,6 +10,8 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/core'
+tap 'homebrew/cask-drivers'
+
 # Tiling Window Manager https://github.com/koekeishiya/chunkwm
 #tap 'crisidev/homebrew-chunkwm'
 
@@ -103,10 +105,20 @@ brew 'zsh-autosuggestions'
 # https://github.com/zsh-users/zsh-syntax-highlighting
 brew 'zsh-syntax-highlighting'
 
+# SyncThing
+# TODO: Set up auto start `brew services start syncthing`
+brew 'syncthing'
+cask 'syncthing'
+
+# TodoTxtMac
+cask 'todotxt'
+
 # Java
 # brew 'jenv'
 # brew 'gradle'
 # brew 'maven'
+
+cask 'android-file-transfer'
 
 # Databases
 # brew 'mongodb'
@@ -178,6 +190,20 @@ cask 'mongodb-compass-community'
 cask 'ngrok'
 cask 'notion'
 cask 'odrive'
+cask 'insta360-studio'
+
+# Master PDF Editor -
+cask 'master-pdf-editor'
+
+# IINA media player
+cask 'iina'
+
+# Youtube Downloader
+brew 'youtube-dl'
+
+# Github Desktop
+brew 'gh'
+
 # cask 'pgadmin4'
 # Client for PostgreSQL https://eggerapps.at/postico/
 # cask 'postico'
@@ -204,7 +230,7 @@ cask 'stay'
 cask 'telegram'
 cask 'tunnelblick'
 # cask 'vagrant'
-# cask 'virtualbox'
+cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 # cask 'vnc-viewer'
@@ -226,7 +252,7 @@ cask 'webpquicklook'
 # cask 'flux'
 # cask 'godot'
 # cask 'intellij-idea'
-# cask 'insomnia'
+cask 'insomnia'
 # cask 'java8'
 # cask 'little-snitch'
 # cask 'love'
@@ -263,3 +289,10 @@ mas 'Amphetamine', id: 937984704
 # mas 'Shotty', id: 1250306151
 # mas 'Unclutter', id: 577085396
 mas 'Xcode', id: 497799835
+
+# Final Cut Pro and Utilities Education License
+mas 'Final Cut Pro X', id: 424389933
+mas 'Motion', id: 434290957
+mas 'Compressor', id: 434290957
+# mas 'Logic Pro X', id: 634148309
+# mas 'Mainstage', id: 634159523
