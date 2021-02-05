@@ -16,7 +16,6 @@
     ~/.bashrc: config/bashrc
     ~/.zshrc: config/zshrc
     ~/.hushlogin: config/hushlogin
-    ~/.antibody: config/antibody.txt
     ~/.inputrc: config/inputrc
 
     # App configurations

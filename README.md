@@ -2,6 +2,25 @@
 
 Inspired by [sobolevn's dotfiles](https://github.com/sobolevn/dotfiles)
 
+## Stacks and Tools
+
+- Brew
+- Docker
+- Hardhat
+- Smock
+- NodeJS
+- ReactJS
+- VS Code
+- BitWarden
+- Brave
+- Chrome
+- Metamask
+- Zsh
+
+- hammerspoon https://github.com/denolfe/dotfiles
+- karabiner https://github.com/denolfe/dotfiles
+- powerlevel10k https://github.com/romkatv/powerlevel10k/
+
 ## Improvement ideas
 
 - http://stratus3d.com/blog/2015/02/28/sync-iterm2-profile-with-dotfiles-repository/
@@ -35,6 +54,12 @@ What's included?
 - `oh-my-zsh` configuration. See `oh-my-zsh/`
 
 ## Installation
+
+Download dotfiles:
+
+- open terminal
+- execute `git`
+- accept the prompt to install developer tools
 
 Install homebrew:
 

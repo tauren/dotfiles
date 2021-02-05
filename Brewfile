@@ -5,7 +5,6 @@
 tap 'buo/cask-upgrade'
 # Non-official Flutter TODO: update when brew has official flutter
 tap 'eclewlow/formulas'
-tap 'getantibody/tap'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
@@ -15,8 +14,11 @@ tap 'homebrew/cask-drivers'
 # Tiling Window Manager https://github.com/koekeishiya/chunkwm
 #tap 'crisidev/homebrew-chunkwm'
 
-# Shell plugin manager http://getantibody.github.io
-brew 'getantibody/tap/antibody'
+# Display/mirror/control android device connected via USB
+brew 'scrcpy'
+
+# Install ADB (needed for scrcpy)
+cask 'android-platform-tools'
 
 # Clone of `cat` with syntax highlighting and git integration
 brew 'bat'
